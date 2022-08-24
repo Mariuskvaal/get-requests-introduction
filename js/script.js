@@ -1,4 +1,4 @@
-const url = "https://noroff.herokuapp.com/v1/cat-facts/facts";
+/*const url = "https://noroff.herokuapp.com/v1/cat-facts/facts";
 
 const resultsContainer = document.querySelector(".results");
 
@@ -23,3 +23,22 @@ async function getCats() {
 }
 
 getCats();
+
+*/
+
+const url = "https://noroff.herokuapp.com/v1/cat-facts/facts";
+
+const resultsContainer = document.querySelector(".results");
+
+async function getCats () {
+
+    const response = await fetch(url);
+
+    const facts = await response.json();
+
+    console.log(results.)
+}
+
+getCats();
+
+
